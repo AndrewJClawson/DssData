@@ -69,10 +69,23 @@
     <Compile Include="Models\School.cs" />
     <Compile Include="Repository\Repository.cs" />
     <Compile Include="Repository\Abstraction\IRepository.cs" />
+    <Compile Include="Contexts\Abstractions\IDssDataContext.cs" />
+    <Compile Include="Contexts\DssDataContext.cs" />
+    <Compile Include="Constants\Account.cs" />
+    <Compile Include="Constants\AccountTypes.cs" />
+    <Compile Include="Constants\Constant.cs" />
+    <Compile Include="Constants\ContentType.cs" />
+    <Compile Include="Constants\Operation.cs" />
+    <Compile Include="Constants\Permission.cs" />
+    <Compile Include="Constants\Roles.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contexts\" />
+    <Folder Include="Contexts\Abstractions\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
