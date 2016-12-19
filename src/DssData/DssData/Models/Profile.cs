@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using EduSim.Core.ModelInterfaces;
+using DssData.ModelInterfaces;
 using System.Security;
 
-namespace EduSim.Core.Models
+namespace DssData.Models
 {
 	[Table("profiles")]
 	public class Profile : IProfile
@@ -16,11 +16,11 @@ namespace EduSim.Core.Models
 		[Column("fk_user_id")]
 		public string UserId { get; set; }
 
-		[Column("fk_account_id")]
-		public int AccountId { get; set; }
+		//[Column("fk_account_id")]
+		//public int AccountId { get; set; }
 
-		[Column("fk_school_id")]
-		public int? SchoolId { get; set; }
+		//[Column("fk_school_id")]
+		//public int? SchoolId { get; set; }
 
 		[Column("fk_campus_id")]
 		public int? CampusId { get; set; }
@@ -32,8 +32,8 @@ namespace EduSim.Core.Models
 		public string LastName { get; set; }
 
 		public virtual ICollection<ProfilePermission> Permissions { get; set; }
-		public virtual Account Account { get; set; }
-		public virtual School School { get; set; }
+		//public virtual Account Account { get; set; }
+		//public virtual School School { get; set; }
 
 
 

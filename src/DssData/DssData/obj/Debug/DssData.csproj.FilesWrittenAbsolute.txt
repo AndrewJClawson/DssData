@@ -1,0 +1,10 @@
+/Volumes/Storage/Projects/DssData/src/DssData/DssData/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Volumes/Storage/Projects/DssData/src/DssData/DssData/bin/Debug/EntityFramework.dll
+/Volumes/Storage/Projects/DssData/src/DssData/DssData/bin/Debug/EntityFramework.SqlServer.dll
+/Volumes/Storage/Projects/DssData/src/DssData/DssData/bin/Debug/MySql.Data.dll
+/Volumes/Storage/Projects/DssData/src/DssData/DssData/bin/Debug/MySql.Data.Entity.EF6.dll
+/Volumes/Storage/Projects/DssData/src/DssData/DssData/bin/Debug/DssData.dll.config
+/Volumes/Storage/Projects/DssData/src/DssData/DssData/bin/Debug/DssData.dll.mdb
+/Volumes/Storage/Projects/DssData/src/DssData/DssData/bin/Debug/DssData.dll
+/Volumes/Storage/Projects/DssData/src/DssData/DssData/obj/Debug/DssData.dll
+/Volumes/Storage/Projects/DssData/src/DssData/DssData/obj/Debug/DssData.dll.mdb

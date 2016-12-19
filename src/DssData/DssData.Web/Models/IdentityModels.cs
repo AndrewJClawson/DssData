@@ -3,8 +3,8 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Web;
 using System.ComponentModel.DataAnnotations.Schema;
-using EduSim.Core;
-using EduSim.Core.Contexts;
+using DssData;
+using DssData.Contexts;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 

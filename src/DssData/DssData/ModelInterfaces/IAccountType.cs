@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace EduSim.Core.ModelInterfaces
+namespace DssData.ModelInterfaces
 {
 	
 	public interface IAccountType

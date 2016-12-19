@@ -1,10 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using EduSim.Core.ModelInterfaces;
+using DssData.ModelInterfaces;
 using System.Security;
 
-namespace EduSim.Core.Models
+namespace DssData.Models
 {
 	[Table("_roles")]
 	public class Role : IRole

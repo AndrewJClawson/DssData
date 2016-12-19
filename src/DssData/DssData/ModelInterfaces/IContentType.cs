@@ -1,5 +1,5 @@
 ﻿using System;
-namespace EduSim.Core.ModelInterfaces
+namespace DssData.ModelInterfaces
 {
 	public interface IContentType
 	{

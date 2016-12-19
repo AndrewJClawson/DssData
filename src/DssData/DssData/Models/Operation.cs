@@ -1,8 +1,8 @@
-﻿using EduSim.Core.ModelInterfaces;
+﻿using DssData.ModelInterfaces;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-namespace EduSim.Core
+namespace DssData.Models
 {
 	[Table("_operations")]
 	public class Operation : IOperation

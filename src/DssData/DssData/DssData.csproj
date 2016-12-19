@@ -55,12 +55,8 @@
     <Compile Include="ModelInterfaces\IProfilePermission.cs" />
     <Compile Include="ModelInterfaces\IRole.cs" />
     <Compile Include="ModelInterfaces\ISchool.cs" />
-    <Compile Include="Models\Account.cs" />
-    <Compile Include="Models\AccountType.cs" />
     <Compile Include="Models\ContentType.cs" />
     <Compile Include="Models\ContentTypeOperation.cs" />
-    <Compile Include="Models\IdentityClaim.cs" />
-    <Compile Include="Models\IdentityUser.cs" />
     <Compile Include="Models\Operation.cs" />
     <Compile Include="Models\Permission.cs" />
     <Compile Include="Models\Profile.cs" />
@@ -82,6 +78,10 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Models\IdentityClaim.cs" />
+    <None Include="Models\IdentityUser.cs" />
+    <None Include="Models\AccountType.cs" />
+    <None Include="Models\Account.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contexts\" />

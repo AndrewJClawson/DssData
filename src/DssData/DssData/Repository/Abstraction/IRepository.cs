@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EduSim.Core.Repository
+namespace DssData.Repository
 {
 	public interface IRepository<T> where T : class
 	{

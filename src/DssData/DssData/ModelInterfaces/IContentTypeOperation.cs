@@ -1,6 +1,6 @@
 ﻿using System;
-using EduSim.Core.Models;
-namespace EduSim.Core.ModelInterfaces
+
+namespace DssData.ModelInterfaces
 {
 	public class IContentTypeOperation
 	{

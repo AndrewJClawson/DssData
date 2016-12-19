@@ -7,27 +7,27 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-using EduSim.Core.Models;
+using DssData.Models;
 using System.Web;
-using EduSim.Core.Contexts;
+using DssData.Contexts;
 
-namespace EduSim.Core.Repository
+namespace DssData.Repository
 {
 	public class Repository<T> : IRepository<T> where T : class
 	{
-		protected EduSimContext _edusimContext;
+		protected DssDataContext _dssContext;
 		private readonly DbSet<T> _dbSet;
 
 		public Repository(DbContext dbContext)
 		{
-			_edusimContext = (EduSimContext)dbContext;
-			_dbSet = _edusimContext.Set<T>();
+			_dssContext = (DssDataContext)dbContext;
+			_dbSet = _dssContext.Set<T>();
 		}
 
 		public Repository()
 		{
-			_edusimContext = new Contexts.EduSimContext();
-			_dbSet = _edusimContext.Set<T>();
+			_dssContext = new Contexts.DssDataContext();
+			_dbSet = _dssContext.Set<T>();
 		}
 
 		public T GetById(object id)
@@ -37,7 +37,7 @@ namespace EduSim.Core.Repository
 
 		public IQueryable<T> GetAll(params string[] navigationProperties)
 		{
-			IQueryable<T> dbQuery = _edusimContext.Set<T>();
+			IQueryable<T> dbQuery = _dssContext.Set<T>();
 			foreach (string navigationProperty in navigationProperties)
 			{
 				dbQuery = dbQuery.Include(navigationProperty);
@@ -49,8 +49,8 @@ namespace EduSim.Core.Repository
 		{
 
 			_dbSet.Add(item);
-			_edusimContext.Entry(item).State = EntityState.Added;
-			_edusimContext.SaveChangesAsync();
+			_dssContext.Entry(item).State = EntityState.Added;
+			_dssContext.SaveChangesAsync();
 		}
 
 		public virtual void Delete(object id)
@@ -59,8 +59,8 @@ namespace EduSim.Core.Repository
 
 			//TODO - Check for null object????
 			Delete(deleteItem);
-			_edusimContext.Entry(deleteItem).State = EntityState.Deleted;
-			_edusimContext.SaveChangesAsync();
+			_dssContext.Entry(deleteItem).State = EntityState.Deleted;
+			_dssContext.SaveChangesAsync();
 
 			//TODO - Update state ??
 		}
@@ -69,16 +69,16 @@ namespace EduSim.Core.Repository
 		{
 			// More here check if item state is detached. If it is, attach it.
 			_dbSet.Remove(item);
-			_edusimContext.Entry(item).State = EntityState.Deleted;
-			_edusimContext.SaveChangesAsync();
+			_dssContext.Entry(item).State = EntityState.Deleted;
+			_dssContext.SaveChangesAsync();
 		}
 
 		public virtual void Update(T item)
 		{
 			//TODO - null checks on item????
 			_dbSet.Attach(item);
-			_edusimContext.Entry(item).State = EntityState.Modified;
-			_edusimContext.SaveChangesAsync();
+			_dssContext.Entry(item).State = EntityState.Modified;
+			_dssContext.SaveChangesAsync();
 		}
 	}
 }

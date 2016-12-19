@@ -2,9 +2,9 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-using EduSim.Core.ModelInterfaces;
+using DssData.ModelInterfaces;
 
-namespace EduSim.Core.Models
+namespace DssData.Models
 {
 	[Table("_content_type_operations")]
 	public class ContentTypeOperation : IContentTypeOperation

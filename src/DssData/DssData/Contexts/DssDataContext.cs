@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.Entity;
 using MySql.Data.Entity;
-
+using DssData.Models;
 
 
 namespace DssData.Contexts
@@ -10,7 +10,7 @@ namespace DssData.Contexts
 	public partial class DssDataContext : DbContext, IDssDataContext
 	{
 		// Look up models
-		public DbSet<AccountType> AccountTypes { get; set; }
+		//public DbSet<AccountType> AccountTypes { get; set; }
 		public DbSet<ContentType> ContentTypes { get; set; }
 		public DbSet<Operation> Operations { get; set; }
 		public DbSet<ContentTypeOperation> ContentTypeOperations { get; set; }
@@ -20,13 +20,13 @@ namespace DssData.Contexts
 		public DbSet<Role> Roles { get; set; }
 
 		// Application API models
-		public DbSet<Account> Accounts { get; set; }
+		//public DbSet<Account> Accounts { get; set; }
 		public DbSet<Profile> Profiles { get; set; }
-		public DbSet<School> Schools { get; set; }
+		//public DbSet<School> Schools { get; set; }
 
 
 
-		public EduSimContext() : base(nameOrConnectionString: "EduSimContext")
+		public DssDataContext() : base(nameOrConnectionString: "DssDataContext")
 		{
 
 		}

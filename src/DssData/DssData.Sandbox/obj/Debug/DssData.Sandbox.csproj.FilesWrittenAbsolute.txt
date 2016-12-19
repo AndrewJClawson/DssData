@@ -1,0 +1,5 @@
+/Volumes/Storage/Projects/DssData/src/DssData/DssData.Sandbox/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Volumes/Storage/Projects/DssData/src/DssData/DssData.Sandbox/bin/Debug/DssData.Sandbox.exe.mdb
+/Volumes/Storage/Projects/DssData/src/DssData/DssData.Sandbox/bin/Debug/DssData.Sandbox.exe
+/Volumes/Storage/Projects/DssData/src/DssData/DssData.Sandbox/obj/Debug/DssData.Sandbox.exe
+/Volumes/Storage/Projects/DssData/src/DssData/DssData.Sandbox/obj/Debug/DssData.Sandbox.exe.mdb

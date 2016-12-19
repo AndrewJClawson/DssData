@@ -1,5 +1,5 @@
 ﻿using System;
-namespace EduSim.Core
+namespace DssData.ModelInterfaces
 {
 	public interface IProfilePermission
 	{

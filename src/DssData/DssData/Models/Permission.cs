@@ -1,9 +1,9 @@
-﻿using EduSim.Core.ModelInterfaces;
+﻿using DssData.ModelInterfaces;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EduSim.Core.Models
+namespace DssData.Models
 {
 	[Table("_permissions")]
 	public class Permission : IPermission

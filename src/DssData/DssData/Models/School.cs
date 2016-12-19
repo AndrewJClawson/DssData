@@ -3,9 +3,9 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Collections.Generic;
 
-using EduSim.Core.ModelInterfaces;
+using DssData.ModelInterfaces;
 
-namespace EduSim.Core.Models
+namespace DssData.Models
 {
 	[Table("schools")]
 	public class School : ISchool
@@ -31,7 +31,7 @@ namespace EduSim.Core.Models
 		[Column("zip")]
 		public string Zip { get; set; }
 
-		public virtual Account Account { get; set; }
+		//public virtual Account Account { get; set; }
 
 		public virtual ICollection<Profile> Profiles { get; set; }
 
