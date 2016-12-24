@@ -32,7 +32,7 @@
 		<div class="col-xs-12 col-sm-10 offset-sm-2 col-md-8 offset-md-4"">
 		<section id="login-form-container">	
 				<h2 class="login-header">Dss Data Login</h2>
-                @using (Html.BeginForm("Dashboard", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form", id="login-form"}))
+                @using (Html.BeginForm("Dashboard", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form", id="login-form"}))
                 {
                     @Html.AntiForgeryToken()
                     <h4 class="login-header">Use a local account to log in.</h4>
@@ -68,11 +68,11 @@
 </html>
 <script>
 	$(document).ready(function(){
-		<!--$("#login-button").click(function(){
+		$("#login-button").click(function(){
 			var email = $("#login-email").val();
 			var password = $("#login-password").val();
 			$.ajax({
-				url:'@Url.Action("Authenticate","Account")',
+				url:'@Url.Action("Home","LoginAsync")',
 				type:'POST',
 				data: {'email':email,'password':password},
 				dataType:"json",
@@ -81,7 +81,7 @@
 					alert(response.Message);
 				}
 			});
-		});-->
+		});
 	
 	});
 	function LoadDashboard(response)

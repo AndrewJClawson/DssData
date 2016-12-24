@@ -9,6 +9,10 @@ namespace DssData.Web.Controllers
 {
 	public class HomeController : Controller
 	{
+		public ActionResult Dashboard()
+		{
+			return View();
+		}
 		public ActionResult Index()
 		{
 			var mvcName = typeof(Controller).Assembly.GetName();
@@ -18,6 +22,15 @@ namespace DssData.Web.Controllers
 			ViewData["Runtime"] = isMono ? "Mono" : ".NET";
 
 			return View();
+		}
+
+		public ActionResult LoginAsync(string username, string password)
+		{
+			
+			var result = new { };
+			JsonResult jsonResult = Json(result);
+			jsonResult.JsonRequestBehavior = JsonRequestBehavior.AllowGet;
+			return jsonResult;
 		}
 	}
 }
