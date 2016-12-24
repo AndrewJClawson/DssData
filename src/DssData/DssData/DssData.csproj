@@ -74,6 +74,8 @@
     <Compile Include="Constants\Operation.cs" />
     <Compile Include="Constants\Permission.cs" />
     <Compile Include="Constants\Roles.cs" />
+    <Compile Include="ModelInterfaces\IStudent.cs" />
+    <Compile Include="Models\Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
