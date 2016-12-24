@@ -8,7 +8,7 @@ using DssData.Contexts;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-namespace EduSim.Web.Models
+namespace DssData.Web.Models
 {
 	[Table("users")]
 	public class ApplicationUser : IdentityUser
