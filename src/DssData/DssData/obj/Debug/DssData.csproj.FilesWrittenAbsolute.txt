@@ -8,3 +8,13 @@
 /Volumes/Storage/Projects/DssData/src/DssData/DssData/bin/Debug/DssData.dll
 /Volumes/Storage/Projects/DssData/src/DssData/DssData/obj/Debug/DssData.dll
 /Volumes/Storage/Projects/DssData/src/DssData/DssData/obj/Debug/DssData.dll.mdb
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData/bin/Debug/DssData.dll.config
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData/bin/Debug/DssData.dll.mdb
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData/bin/Debug/DssData.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData/obj/Debug/DssData.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData/obj/Debug/DssData.dll.mdb
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData/bin/Debug/EntityFramework.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData/bin/Debug/EntityFramework.SqlServer.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData/bin/Debug/MySql.Data.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData/bin/Debug/MySql.Data.Entity.EF6.dll
