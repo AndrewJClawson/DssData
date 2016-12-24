@@ -1,1 +1,100 @@
-﻿<h2>Welcome to ASP.NET MVC @ViewData["Version"] on @ViewData["Runtime"]!</h2>
+﻿@using System.Web
+@using System.Configuration
+
+@model LoginViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>Login</title>
+		 
+	    
+	    @Styles.Render("~/Content/App.css")
+	    @Styles.Render("~/Content/bootstrap.css")
+	    @Styles.Render("~/Content/bootstrap.css.map")
+	    @Styles.Render("~/Content/bootstrap.min.css")
+	    @Styles.Render("~/Content/bootstrap-theme.css")
+	    @Styles.Render("~/Content/bootstrap-theme.min.css")
+	    @Styles.Render("~/Content/bootstrap-theme.min.css.map")
+
+		@Scripts.Render("~/Scripts/jquery-3.1.1.js")
+	    @Scripts.Render("~/Scripts/jquery-3.1.1.min.js")
+	    @Scripts.Render("~/Scripts/bootstrap.min.js")
+	    @Scripts.Render("~/Scripts/jquery-3.1.1.min.js")
+	    @Scripts.Render("~/Scripts/bootstrap.js")
+
+
+
+	</head>
+	<body class="login-body">
+		<div class="col-xs-12 col-sm-10 offset-sm-2 col-md-8 offset-md-4"">
+		<section id="login-form-container">	
+				<h2 class="login-header">EduSIM Login</h2>
+                @using (Html.BeginForm("Dashboard", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form", id="login-form"}))
+                {
+                    @Html.AntiForgeryToken()
+                    <h4 class="login-header">Use a local account to log in.</h4>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="form-group email">
+                        @*@Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label" })*@
+                        @Html.LabelFor(m => m.Username, "Username", new { @class = "col-sm-2 col-md-2 control-label"})
+                        <div class="col-sm-10 col-md-8">
+                            @Html.TextBoxFor(m => m.Username, new { @class = "form-control", id="login-email"})
+                            @Html.ValidationMessageFor(m => m.Username, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Password, new { @class = "col-sm-2 col-md-2 control-label" })
+                        <div class="col-sm-10 col-md-8">
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control", id="login-password" })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" }) <br />
+                            <button type="submits" id="login-button" class="btn btn-success pull-right">Login</button>
+                        </div>
+					
+					
+                    </div>
+                    <div class="form-group">
+                        <div>
+                             
+                        </div>
+                    </div>
+                }
+            </section>
+			</div>
+	</body>
+</html>
+<script>
+	$(document).ready(function(){
+		<!--$("#login-button").click(function(){
+			var email = $("#login-email").val();
+			var password = $("#login-password").val();
+			$.ajax({
+				url:'@Url.Action("Authenticate","Account")',
+				type:'POST',
+				data: {'email':email,'password':password},
+				dataType:"json",
+				success: LoadDashboard,
+				error: function (response) {
+					alert(response.Message);
+				}
+			});
+		});-->
+	
+	});
+	function LoadDashboard(response)
+	{
+		if(response.Success)
+		{
+			$("#login-form").submit();
+		}
+		else
+		{
+			alert(response.Message)
+		}
+	}
+</script>
