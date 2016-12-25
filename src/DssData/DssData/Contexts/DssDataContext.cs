@@ -23,7 +23,7 @@ namespace DssData.Contexts
 		//public DbSet<Account> Accounts { get; set; }
 		public DbSet<Profile> Profiles { get; set; }
 		//public DbSet<School> Schools { get; set; }
-
+		public DbSet<Student> Students { get; set; }
 
 
 		public DssDataContext() : base(nameOrConnectionString: "DssDataContext")
