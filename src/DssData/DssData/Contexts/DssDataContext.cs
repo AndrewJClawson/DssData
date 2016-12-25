@@ -31,6 +31,11 @@ namespace DssData.Contexts
 
 		}
 
+		public DssDataContext(string connectionString) : base(nameOrConnectionString: connectionString)
+		{
+
+		}
+
 		protected override void OnModelCreating(System.Data.Entity.DbModelBuilder modelBuilder)
 		{
 			base.OnModelCreating(modelBuilder);
