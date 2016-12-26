@@ -14,7 +14,7 @@ namespace DssData.Contexts
 		DbSet<ProfilePermission> ProfilePermissions { get; set; }
 
 		DbSet<Role> Roles { get; set; }
-
+		DbSet<EnrollmentStatus> EnrollmentStatuses { get; set; }
 		// Application API models
 		//public DbSet<Account> Accounts { get; set; }
 		DbSet<Profile> Profiles { get; set; }

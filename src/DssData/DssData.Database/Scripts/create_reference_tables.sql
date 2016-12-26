@@ -13,3 +13,6 @@ source ./Tables/_content_type_operations.sql;
 
 SELECT 'Creating table: _permissions' as 'Action';
 source ./Tables/_permissions.sql;
+
+SELECT 'Creating table: _enrollment_statuses' as 'Action';
+source ./Tables/_enrollment_statuses.sql;

@@ -76,6 +76,8 @@
     <None Include="publish_auth_database.sql" />
     <None Include="publish_test_database.sql" />
     <None Include="Tables\students.sql" />
+    <None Include="Tables\_enrollment_statuses.sql" />
+    <None Include="ReferenceData\_enrollment_statuses.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

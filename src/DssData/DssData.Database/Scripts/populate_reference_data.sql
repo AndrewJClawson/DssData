@@ -12,3 +12,6 @@ source ./ReferenceData/_content_type_operations.sql;
 
 SELECT 'Populating table: _permissions' as 'Action';
 source ./ReferenceData/_permissions.sql;
+
+SELECT 'Populating table: _enrollment_statuses' as 'Action';
+source ./ReferenceData/_enrollment_statuses.sql;
