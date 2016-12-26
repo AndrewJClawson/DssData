@@ -82,6 +82,10 @@
     <Compile Include="Constants\FormTemplates.cs" />
     <Compile Include="ModelInterfaces\IFormTemplate.cs" />
     <Compile Include="Models\FormTemplate.cs" />
+    <Compile Include="ModelInterfaces\ISchoolYear.cs" />
+    <Compile Include="Models\SchoolYear.cs" />
+    <Compile Include="ModelInterfaces\IQuarter.cs" />
+    <Compile Include="Models\Quarter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

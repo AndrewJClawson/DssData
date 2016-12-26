@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{0D9AC54E-786F-4433-A69A-02A7DFE501E5}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DssData.Database/Tables/quarter.sql">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DssData/Models/Quarter.cs">
     <Files>
-      <File FileName="DssData.Database/publish_database.sql" Line="1" Column="1" />
+      <File FileName="DssData.Database/publish_database.sql" Line="24" Column="41" />
       <File FileName="DssData.Database/Scripts/populate_reference_data.sql" Line="20" Column="44" />
       <File FileName="DssData.Database/Tables/_form_templates.sql" Line="7" Column="57" />
       <File FileName="DssData.Database/Tables/school_years.sql" Line="6" Column="32" />
-      <File FileName="DssData.Database/Scripts/create_application_tables.sql" Line="14" Column="34" />
-      <File FileName="DssData.Database/Scripts/initial_develop_data.sql" Line="22" Column="49" />
-      <File FileName="DssData.Database/Tables/quarter.sql" Line="9" Column="24" />
+      <File FileName="DssData.Database/Scripts/create_application_tables.sql" Line="17" Column="30" />
+      <File FileName="DssData.Database/Scripts/initial_develop_data.sql" Line="39" Column="38" />
+      <File FileName="DssData.Database/Tables/quarters.sql" Line="5" Column="15" />
       <File FileName="DssData.Database/Tables/schools.sql" Line="14" Column="91" />
+      <File FileName="DssData/Models/SchoolYear.cs" Line="16" Column="3" />
+      <File FileName="DssData/ModelInterfaces/IQuarter.cs" Line="8" Column="27" />
+      <File FileName="DssData/Models/Quarter.cs" Line="2" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
