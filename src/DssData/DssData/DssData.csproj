@@ -79,6 +79,9 @@
     <Compile Include="Constants\EnrollmentStatus.cs" />
     <Compile Include="ModelInterfaces\IEnrollmentStatus.cs" />
     <Compile Include="Models\EnrollmentStatus.cs" />
+    <Compile Include="Constants\FormTemplates.cs" />
+    <Compile Include="ModelInterfaces\IFormTemplate.cs" />
+    <Compile Include="Models\FormTemplate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

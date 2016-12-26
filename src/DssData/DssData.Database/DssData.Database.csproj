@@ -78,6 +78,10 @@
     <None Include="Tables\students.sql" />
     <None Include="Tables\_enrollment_statuses.sql" />
     <None Include="ReferenceData\_enrollment_statuses.sql" />
+    <None Include="Tables\_form_templates.sql" />
+    <None Include="ReferenceData\_form_templates.sql" />
+    <None Include="Tables\school_years.sql" />
+    <None Include="Tables\quarters.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

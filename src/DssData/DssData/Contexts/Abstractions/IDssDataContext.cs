@@ -20,5 +20,7 @@ namespace DssData.Contexts
 		DbSet<Profile> Profiles { get; set; }
 		//public DbSet<School> Schools { get; set; }
 		DbSet<Student> Students { get; set; }
+
+		DbSet<FormTemplate> FormTemplates { get; set; }
 	}
 }
