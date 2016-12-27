@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{256AF05A-BD4E-4431-837C-5239FB65A181}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DssData/Contexts/DssDataContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DssData/App.config">
     <Files>
-      <File FileName="DssData.Sandbox/App.config" Line="1" Column="1" />
+      <File FileName="DssData.Sandbox/App.config" Line="18" Column="3" />
       <File FileName="DssData/Contexts/DssDataContext.cs" Line="33" Column="1" />
+      <File FileName="DssData/App.config" Line="16" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
