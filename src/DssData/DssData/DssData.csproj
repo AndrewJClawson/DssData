@@ -67,7 +67,6 @@
     <Compile Include="Repository\Abstraction\IRepository.cs" />
     <Compile Include="Contexts\Abstractions\IDssDataContext.cs" />
     <Compile Include="Contexts\DssDataContext.cs" />
-    <Compile Include="Constants\Account.cs" />
     <Compile Include="Constants\AccountTypes.cs" />
     <Compile Include="Constants\Constant.cs" />
     <Compile Include="Constants\ContentType.cs" />
@@ -99,6 +98,7 @@
     <None Include="Models\IdentityUser.cs" />
     <None Include="Models\AccountType.cs" />
     <None Include="Models\Account.cs" />
+    <None Include="Constants\Account.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contexts\" />

@@ -30,7 +30,7 @@ namespace DssData.Contexts
 		public DbSet<Form> Forms { get; set; }
 		public DbSet<AssessmentTitle> AssessmentTitles { get; set; }
 
-		public DssDataContext() : base(nameOrConnectionString: "DssDataContext")
+		public DssDataContext() : base("DssDataContext")
 		{
 
 		}

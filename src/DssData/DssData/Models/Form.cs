@@ -12,7 +12,7 @@ namespace DssData.Models
 		public int FormId { get; set; }
 
 		[Column("fk_form_label_id")]
-		public int FormLabelId { get; set}
+		public int FormLabelId { get; set;}
 
 		[Column("fk_student_id")]
 		public int StudentId { get; set; }

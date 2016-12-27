@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using DssData.Contexts;
 
 namespace DssData.Sandbox
 {
@@ -6,7 +8,14 @@ namespace DssData.Sandbox
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			using (DssDataContext context = new DssDataContext())
+			{
+				var assessmentTitles = context.AssessmentTitles;
+				foreach (var title in assessmentTitles)
+				{
+					System.Console.WriteLine(title.Name);
+				}
+			}
 		}
 	}
 }

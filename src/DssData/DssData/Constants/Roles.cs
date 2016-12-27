@@ -1,5 +1,5 @@
 ﻿using System;
-namespace EduSim.Core.Constants
+namespace DssData.Constants
 {
 	public class Roles
 	{
