@@ -8,7 +8,7 @@ namespace DssData.Sandbox
 	{
 		public static void Main(string[] args)
 		{
-			using (DssDataContext context = new DssDataContext())
+			using (DssDataContext context = new DssDataContext("DssDataTestContext"))
 			{
 				var assessmentTitles = context.AssessmentTitles;
 				foreach (var title in assessmentTitles)

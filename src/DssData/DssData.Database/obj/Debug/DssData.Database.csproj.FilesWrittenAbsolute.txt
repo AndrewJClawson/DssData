@@ -1,5 +1,5 @@
-/Volumes/Storage/Projects/DssData/src/DssData/DssData.Database/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
-/Volumes/Storage/Projects/DssData/src/DssData/DssData.Database/bin/Debug/DssData.Database.dll.mdb
-/Volumes/Storage/Projects/DssData/src/DssData/DssData.Database/bin/Debug/DssData.Database.dll
-/Volumes/Storage/Projects/DssData/src/DssData/DssData.Database/obj/Debug/DssData.Database.dll
-/Volumes/Storage/Projects/DssData/src/DssData/DssData.Database/obj/Debug/DssData.Database.dll.mdb
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Database/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Database/bin/Debug/DssData.Database.dll.mdb
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Database/bin/Debug/DssData.Database.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Database/obj/Debug/DssData.Database.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Database/obj/Debug/DssData.Database.dll.mdb

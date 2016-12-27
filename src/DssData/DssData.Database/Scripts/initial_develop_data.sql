@@ -2,6 +2,7 @@
 SELECT 'Populating table: campuses' as 'Action';
 INSERT INTO campuses VALUES (1,"First Campus","345 Fake St.","My City","CO","80233");
 
+INSERT INTO dssdata_auth.users("e1e6f670-1bf0-44cc-a34e-7d7f443567dc","andrewjclawson18@gmail.com",
 SELECT 'Populating table: profiles' as 'Action';
 INSERT INTO profiles VALUES (1,"e1e6f670-1bf0-44cc-a34e-7d7f443567dc",1,"Andrew","Clawson");
 

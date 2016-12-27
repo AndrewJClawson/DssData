@@ -35,7 +35,7 @@ namespace DssData.Contexts
 
 		}
 
-		public DssDataContext(string connectionString) : base(nameOrConnectionString: connectionString)
+		public DssDataContext(string connectionString) : base(connectionString)
 		{
 
 		}

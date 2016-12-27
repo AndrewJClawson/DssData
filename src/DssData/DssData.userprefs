@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{256AF05A-BD4E-4431-837C-5239FB65A181}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DssData.Database/Scripts/initial_develop_data.sql">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DssData.Sandbox/App.config">
     <Files>
-      <File FileName="DssData.Sandbox/App.config" Line="9" Column="153" />
-      <File FileName="DssData/Contexts/DssDataContext.cs" Line="33" Column="1" />
-      <File FileName="DssData/App.config" Line="16" Column="17" />
+      <File FileName="DssData/Contexts/DssDataContext.cs" Line="38" Column="73" />
       <File FileName="DssData.Database/Scripts/initial_develop_data.sql" Line="5" Column="100" />
+      <File FileName="DssData.Sandbox/Program.cs" Line="14" Column="1" />
+      <File FileName="DssData.Sandbox/App.config" Line="8" Column="100" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
