@@ -19,4 +19,7 @@ source ./Tables/quarters.sql;
 SELECT 'Creating Table: forms' as 'Action';
 source ./Tables/forms.sql;
 
+SELECT 'Creating Table: assessments' as 'Action';
+source ./Tables/assessments.sql;
+
 

@@ -1,5 +1,10 @@
 ﻿<Properties StartupConfiguration="{0D9AC54E-786F-4433-A69A-02A7DFE501E5}|">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DssData/Contexts/DssDataContext.cs">
+    <Files>
+      <File FileName="DssData/Contexts/Abstractions/IDssDataContext.cs" Line="24" Column="50" />
+      <File FileName="DssData/Contexts/DssDataContext.cs" Line="29" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.DssData.Console PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
