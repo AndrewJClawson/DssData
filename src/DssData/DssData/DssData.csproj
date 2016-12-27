@@ -79,9 +79,9 @@
     <Compile Include="Constants\EnrollmentStatus.cs" />
     <Compile Include="ModelInterfaces\IEnrollmentStatus.cs" />
     <Compile Include="Models\EnrollmentStatus.cs" />
-    <Compile Include="Constants\FormTemplates.cs" />
-    <Compile Include="ModelInterfaces\IFormTemplate.cs" />
-    <Compile Include="Models\FormTemplate.cs" />
+    <Compile Include="Constants\FormLabel.cs" />
+    <Compile Include="ModelInterfaces\IFormLabel.cs" />
+    <Compile Include="Models\FormLabel.cs" />
     <Compile Include="ModelInterfaces\ISchoolYear.cs" />
     <Compile Include="Models\SchoolYear.cs" />
     <Compile Include="ModelInterfaces\IQuarter.cs" />

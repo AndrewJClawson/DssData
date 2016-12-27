@@ -1,9 +1,9 @@
 ﻿using System;
 namespace DssData.ModelInterfaces
 {
-	public interface IFormTemplate
+	public interface IFormLabel
 	{
-		int FormTemplateId { get; set; }
+		int FormLabelId { get; set; }
 		string Name { get; set; }
 	}
 }

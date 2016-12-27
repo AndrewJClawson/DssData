@@ -18,4 +18,4 @@ SELECT 'Creating table: _enrollment_statuses' as 'Action';
 source ./Tables/_enrollment_statuses.sql;
 
 SELECT 'Creating table: _form_templates' as 'Action';
-source ./Tables/_form_templates.sql;
+source ./Tables/_form_labels.sql;

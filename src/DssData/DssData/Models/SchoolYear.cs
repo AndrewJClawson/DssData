@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using DssData.ModelInterfaces;
+
 namespace DssData.Models
 {
 	[Table("school_years")]
@@ -13,6 +15,8 @@ namespace DssData.Models
 		[Column("name")]
 		public string Name { get; set; }
 
+		// Navigation properties
+		public virtual ICollection<Quarter> Quarters {get;set;}
 
 		public SchoolYear()
 		{

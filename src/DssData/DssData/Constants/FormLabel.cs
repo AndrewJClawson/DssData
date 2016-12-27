@@ -1,7 +1,7 @@
 ﻿using System;
 namespace DssData.Constants
 {
-	public class FormTemplates
+	public class FormLabel
 	{
 		public static Constant A
 		{
