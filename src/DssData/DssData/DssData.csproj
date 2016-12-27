@@ -87,6 +87,10 @@
     <Compile Include="ModelInterfaces\IQuarter.cs" />
     <Compile Include="Models\Quarter.cs" />
     <Compile Include="Constants\AssessmentTitle.cs" />
+    <Compile Include="ModelInterfaces\IForm.cs" />
+    <Compile Include="Models\Form.cs" />
+    <Compile Include="ModelInterfaces\IAssessmentTitle.cs" />
+    <Compile Include="Models\AssessmentTitle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -16,4 +16,7 @@ source ./Tables/school_years.sql;
 SELECT 'Creating Table: quarters' as 'Action';
 source ./Tables/quarters.sql;
 
+SELECT 'Creating Table: forms' as 'Action';
+source ./Tables/forms.sql;
+
 

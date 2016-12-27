@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{0D9AC54E-786F-4433-A69A-02A7DFE501E5}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="DssData.Database/Scripts/populate_reference_data.sql">
     <Files>
-      <File FileName="DssData.Database/Tables/_assessment_titles.sql" Line="6" Column="34" />
-      <File FileName="DssData.Database/Scripts/create_reference_tables.sql" Line="24" Column="40" />
-      <File FileName="DssData/Constants/AssessmentTitle.cs" Line="113" Column="87" />
-      <File FileName="DssData.Database/ReferenceData/_assessment_titles.sql" Line="22" Column="78" />
-      <File FileName="DssData.Database/Scripts/populate_reference_data.sql" Line="22" Column="37" />
+      <File FileName="DssData.Database/Tables/forms.sql" Line="14" Column="84" />
+      <File FileName="DssData.Database/Scripts/create_application_tables.sql" Line="20" Column="27" />
+      <File FileName="DssData.Database/Scripts/populate_reference_data.sql" Line="23" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
