@@ -4,7 +4,8 @@
 	fk_form_label_id int(11) unsigned NOT NULL,
 	fk_student_id int(11) unsigned NOT NULL,
 	fk_quarter_id int(11) unsigned NOT NULL,
-	
+	test_date date NOT NULL,
+
 	PRIMARY KEY (pk_form_id),
 	KEY label (fk_form_label_id),
 	KEY student (fk_student_id),

@@ -20,6 +20,8 @@ namespace DssData.Models
 		[Column("fk_quarter_id")]
 		public int QuarterId { get; set; }
 
+		[Column("test_date")]
+		public DateTime TestDate { get; set; }
 		public virtual FormLabel Label {get;set;}
 
 		public virtual Student Student { get; set; }

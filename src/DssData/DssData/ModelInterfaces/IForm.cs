@@ -9,6 +9,8 @@ namespace DssData.ModelInterfaces
 		int StudentId { get; set; }
 		int QuarterId { get; set; }
 
+		DateTime TestDate { get; set; }
+
 		FormLabel Label { get; set; }
 		Student Student { get; set; }
 		Quarter Quarter { get; set; }
