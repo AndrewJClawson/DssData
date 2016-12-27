@@ -90,6 +90,7 @@
     <Compile Include="Models\Form.cs" />
     <Compile Include="ModelInterfaces\IAssessmentTitle.cs" />
     <Compile Include="Models\AssessmentTitle.cs" />
+    <Compile Include="Constants\Connection.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

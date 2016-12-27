@@ -1,4 +1,5 @@
 /Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/DssData.Web.Tests.dll.config
 /Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/DssData.Web.Tests.dll.mdb
 /Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/DssData.Web.Tests.dll
 /Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/obj/Debug/DssData.Web.Tests.dll
@@ -15,8 +16,13 @@
 /Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/System.Web.Http.dll
 /Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/System.Web.Http.WebHost.dll
 /Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/Newtonsoft.Json.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/MySql.Data.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/MySql.Data.Entity.EF6.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/EntityFramework.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/EntityFramework.SqlServer.dll
 /Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/DssData.Web.dll
 /Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/DssData.Web.dll.mdb
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/DssData.dll
+/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/DssData.dll.mdb
 /Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/Microsoft.AspNet.Identity.EntityFramework.dll
-/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/EntityFramework.dll
 /Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/bin/Debug/Microsoft.AspNet.Identity.Core.dll
