@@ -17,4 +17,4 @@ SELECT 'Populating table: _enrollment_statuses' as 'Action';
 source ./ReferenceData/_enrollment_statuses.sql;
 
 SELECT 'Populating table: _form_templates' as 'Action';
-source ./ReferenceData/_form_templates.sql;
+source ./ReferenceData/_form_labels.sql;
