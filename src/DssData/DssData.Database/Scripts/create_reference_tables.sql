@@ -19,3 +19,6 @@ source ./Tables/_enrollment_statuses.sql;
 
 SELECT 'Creating table: _form_templates' as 'Action';
 source ./Tables/_form_labels.sql;
+
+SELECT 'Creating table: _assessment_titles' as 'Action';
+source ./Tables/_assessment_titles.sql;

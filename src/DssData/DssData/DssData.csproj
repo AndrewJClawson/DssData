@@ -86,6 +86,7 @@
     <Compile Include="Models\SchoolYear.cs" />
     <Compile Include="ModelInterfaces\IQuarter.cs" />
     <Compile Include="Models\Quarter.cs" />
+    <Compile Include="Constants\AssessmentTitle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

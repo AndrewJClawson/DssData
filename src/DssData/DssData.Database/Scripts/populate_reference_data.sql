@@ -18,3 +18,6 @@ source ./ReferenceData/_enrollment_statuses.sql;
 
 SELECT 'Populating table: _form_templates' as 'Action';
 source ./ReferenceData/_form_labels.sql;
+
+SELECT 'Populating table: _assessment_titles' as 'Action';
+source ./ReferenceData/_assessment_titles.sql;
