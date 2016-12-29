@@ -35,10 +35,17 @@ namespace DssData.Web.Tests.Services
 		}
 
 		[Test]
-		public void LookupService_GetFormLabels_HasUniqueFormA()
+		public void LookupService_GetEnrollmentStatuses_HasEnrolled()
 		{
-			var formA = SUT.GetFormLabels().Where(l => l.Name == Constants.FormLabel.A.Name).ToList();
-			Assert.True(formA.Count == 1);
+			var enrollmentStatusList = this.SUT.GetEnrollmentStatuses().Where(s => s.Id == Constants.EnrollmentStatus.Enrolled.Id).ToList();
+			Assert.That(enrollmentStatusList.FirstOrDefault().Name == Constants.EnrollmentStatus.Enrolled.Name);
+		}
+
+		[Test]
+		public void LookupService_GetEnrollmentStatuses_HasActive()
+		{
+			var enrollmentStatusList = this.SUT.GetEnrollmentStatuses().Where(s => s.Id == Constants.EnrollmentStatus.Active.Id).ToList();
+			Assert.That(enrollmentStatusList.FirstOrDefault().Name == Constants.EnrollmentStatus.Active.Name);
 		}
 
 	}

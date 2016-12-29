@@ -112,6 +112,8 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Services\Abstractions\ILookupService.cs" />
     <Compile Include="Services\LookupService.cs" />
+    <Compile Include="Services\Abstractions\IFormService.cs" />
+    <Compile Include="Services\FormService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />

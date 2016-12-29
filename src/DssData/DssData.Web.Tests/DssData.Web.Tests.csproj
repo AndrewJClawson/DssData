@@ -91,6 +91,8 @@
     <Compile Include="Controllers\HomeControllerTest.cs" />
     <Compile Include="Services\LookupService\LookupServiceUnitTests.cs" />
     <Compile Include="Services\LookupService\LookupServiceIntegrationTest.cs" />
+    <Compile Include="Services\FormService\FormServiceUnitTests.cs" />
+    <Compile Include="Services\FormService\FormServiceIntegrationTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DssData.Web\DssData.Web.csproj">
@@ -109,6 +111,7 @@
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="Services\LookupService\" />
+    <Folder Include="Services\FormService\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

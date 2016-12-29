@@ -1,10 +1,7 @@
 ﻿<Properties StartupConfiguration="{256AF05A-BD4E-4431-837C-5239FB65A181}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DssData.Web.Tests/Services/LookupService/LookupServiceIntegrationTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DssData.Web.Tests/Services/FormService/FormServiceIntegrationTests.cs">
     <Files>
-      <File FileName="DssData.Web.Tests/Services/LookupService/LookupServiceUnitTests.cs" Line="43" Column="4" />
-      <File FileName="DssData.Web/Services/Abstractions/ILookupService.cs" Line="9" Column="3" />
-      <File FileName="DssData.Web/Services/LookupService.cs" Line="20" Column="35" />
-      <File FileName="DssData.Web.Tests/Services/LookupService/LookupServiceIntegrationTest.cs" Line="41" Column="14" />
+      <File FileName="DssData.Web.Tests/Services/FormService/FormServiceIntegrationTests.cs" Line="6" Column="37" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
@@ -14,14 +11,8 @@
               <Node name="DssData" expanded="True">
                 <Node name="Web" expanded="True">
                   <Node name="Tests" expanded="True">
-                    <Node name="Services" expanded="True">
-                      <Node name="LookupServiceIntegrationTest" expanded="True">
-                        <Node name="LookupService_GetFormLabels_HasUniqueFormA" selected="True" />
-                      </Node>
-                    </Node>
-                    <Node name="Servicess" expanded="True">
-                      <Node name="LookupServiceUnitTests" expanded="True" />
-                    </Node>
+                    <Node name="Services" expanded="True" />
+                    <Node name="Servicess" expanded="True" />
                   </Node>
                 </Node>
               </Node>
@@ -36,10 +27,9 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web/Controllers/HomeController.cs" line="27" column="1" />
-      <Breakpoint file="/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/Services/LookupService/LookupServiceIntegrationTest.cs" line="41" column="14" />
+      <Breakpoint file="/Users/andrewclawson/Documents/Projects/DssData/src/DssData/DssData.Web.Tests/Services/LookupService/LookupServiceIntegrationTest.cs" line="28" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.DssData.Web PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.DssData.Sandbox PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

@@ -6,6 +6,7 @@ namespace DssData.Web.Services
 {
 	public interface ILookupService
 	{
-		IEnumerable<FormLabel> GetFormLabels();
+		
+		IEnumerable<EnrollmentStatus> GetEnrollmentStatuses();
 	}
 }

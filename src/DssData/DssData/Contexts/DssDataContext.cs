@@ -7,7 +7,7 @@ using DssData.Models;
 namespace DssData.Contexts
 {
 	[DbConfigurationType(typeof(MySql.Data.Entity.MySqlEFConfiguration))]
-	public partial class DssDataContext : DbContext, IDssDataContext
+	public partial class DssDataContext : DbContext, IDssDataContext, IDisposable
 	{
 		// Look up models
 		//public DbSet<AccountType> AccountTypes { get; set; }

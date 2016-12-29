@@ -4,27 +4,29 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+
 namespace DssData.Web.Services
 {
-	public class LookupService : ILookupService
+	public class FormService : IFormService
 	{
 		private IDssDataContext _dataContext;
-		public LookupService(IDssDataContext dssDataContext)
+		public FormService(IDssDataContext dataContext)
 		{
-			if (dssDataContext == null)
+			if (dataContext == null)
 			{
 				throw new ArgumentNullException();
 			}
 			else
 			{
-				_dataContext = dssDataContext;
+				_dataContext = dataContext;
 			}
 		}
 
-		public IEnumerable<EnrollmentStatus> GetEnrollmentStatuses()
+		public IEnumerable<FormLabel> GetFormLabels()
 		{
-			return _dataContext.EnrollmentStatuses;
+			return _dataContext.FormLabels;
 		}
+
 
 	}
 }

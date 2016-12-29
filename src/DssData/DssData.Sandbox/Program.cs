@@ -11,9 +11,10 @@ namespace DssData.Sandbox
 			using (DssDataContext context = new DssDataContext("DssDataTestContext"))
 			{
 				var assessmentTitles = context.AssessmentTitles;
-				foreach (var title in assessmentTitles)
+				var formLabels = context.FormLabels;
+				foreach (var label in formLabels)
 				{
-					System.Console.WriteLine(title.Name);
+					System.Console.WriteLine(label.Name);
 				}
 			}
 		}
