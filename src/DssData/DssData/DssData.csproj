@@ -91,6 +91,8 @@
     <Compile Include="ModelInterfaces\IAssessmentTitle.cs" />
     <Compile Include="Models\AssessmentTitle.cs" />
     <Compile Include="Constants\Connection.cs" />
+    <Compile Include="ModelInterfaces\IAssessment.cs" />
+    <Compile Include="Models\Assessment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

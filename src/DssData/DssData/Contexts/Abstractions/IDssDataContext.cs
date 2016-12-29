@@ -24,5 +24,6 @@ namespace DssData.Contexts
 		DbSet<FormLabel> FormLabels { get; set; }
 		DbSet<Form> Forms { get; set; }
 		DbSet<AssessmentTitle> AssessmentTitles { get; set; }
+		DbSet<Assessment> Assessments { get; set; }
 	}
 }

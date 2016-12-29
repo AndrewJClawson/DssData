@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -40,5 +41,6 @@ namespace DssData.Models
 		{
 		}
 
+		public virtual ICollection<Form> Forms { get; set; } // Navigation property for forms set.
 	}
 }

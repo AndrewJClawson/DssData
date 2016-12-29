@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using DssData.ModelInterfaces;
@@ -22,11 +23,14 @@ namespace DssData.Models
 
 		[Column("test_date")]
 		public DateTime TestDate { get; set; }
+
 		public virtual FormLabel Label {get;set;}
 
 		public virtual Student Student { get; set; }
 
 		public virtual Quarter Quarter { get; set; }
+
+
 		public Form()
 		{
 		}
