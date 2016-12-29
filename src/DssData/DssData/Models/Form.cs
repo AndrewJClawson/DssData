@@ -30,6 +30,7 @@ namespace DssData.Models
 
 		public virtual Quarter Quarter { get; set; }
 
+		public virtual ICollection<Assessment> Assessments { get; set; }
 
 		public Form()
 		{
