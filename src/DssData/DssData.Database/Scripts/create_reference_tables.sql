@@ -7,6 +7,8 @@ source ./Tables/_content_types.sql;
 SELECT 'Creating table: _operations' as 'Action';
 source ./Tables/_operations.sql;
 
+SELECT 'Creating table: _gender' as 'Action';
+source ./Tables/_genders.sql;
 
 SELECT 'Creating table: _content_type_operations' as 'Action';
 source ./Tables/_content_type_operations.sql;

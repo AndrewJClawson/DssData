@@ -93,6 +93,9 @@
     <Compile Include="Constants\Connection.cs" />
     <Compile Include="ModelInterfaces\IAssessment.cs" />
     <Compile Include="Models\Assessment.cs" />
+    <Compile Include="Constants\Gender.cs" />
+    <Compile Include="ModelInterfaces\IGender.cs" />
+    <Compile Include="Models\Gender.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

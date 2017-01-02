@@ -7,6 +7,9 @@ source ./ReferenceData/_content_types.sql;
 SELECT 'Populating table: _operations' as 'Action';
 source ./ReferenceData/_operations.sql;
 
+SELECT 'Populating table: _gender' as 'Action';
+source ./ReferenceData/_genders.sql;
+
 SELECT 'Populating table: _content_type_operations' as 'Action';
 source ./ReferenceData/_content_type_operations.sql;
 

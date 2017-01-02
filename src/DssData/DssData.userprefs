@@ -1,61 +1,15 @@
 ﻿<Properties StartupConfiguration="{256AF05A-BD4E-4431-837C-5239FB65A181}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DssData/Models/Student.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DssData.Database/Tables/_genders.sql">
     <Files>
-      <File FileName="DssData/Models/Student.cs" Line="44" Column="93" />
-      <File FileName="DssData/Models/Form.cs" Line="33" Column="3" />
+      <File FileName="DssData/Models/Student.cs" Line="34" Column="20" />
+      <File FileName="DssData/Models/Form.cs" Line="1" Column="1" />
+      <File FileName="DssData/Contexts/DssDataContext.cs" Line="25" Column="3" />
+      <File FileName="DssData/Models/Gender.cs" Line="15" Column="16" />
+      <File FileName="DssData/ModelInterfaces/IGender.cs" Line="6" Column="13" />
+      <File FileName="DssData.Database/Scripts/initial_develop_data.sql" Line="4" Column="1" />
+      <File FileName="DssData.Database/Tables/students.sql" Line="23" Column="81" />
+      <File FileName="DssData.Database/Tables/_genders.sql" Line="3" Column="14" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="DssData" expanded="True">
-            <Node name="DssData" expanded="True">
-              <Node name="Contexts" expanded="True">
-                <Node name="Abstractions" expanded="True" />
-              </Node>
-              <Node name="ModelInterfaces" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Student.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="DssData.Database" expanded="True">
-              <Node name="Tables" expanded="True" />
-            </Node>
-            <Node name="DssData.Web" expanded="True">
-              <Node name="Services" expanded="True">
-                <Node name="Abstractions" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="DssData.Web.Tests" expanded="True">
-              <Node name="Services" expanded="True">
-                <Node name="FormService" expanded="True" />
-                <Node name="LookupService" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="ClassPad">
-        <State name="__root__">
-          <Node name="DssData" expanded="True" selected="True" />
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="DssData" expanded="True">
-            <Node name="DssData.Web.Tests" expanded="True">
-              <Node name="DssData" expanded="True">
-                <Node name="Web" expanded="True">
-                  <Node name="Tests" expanded="True">
-                    <Node name="Services" expanded="True" />
-                    <Node name="Servicess" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.DssData.Console PreferredExecutionTarget="MonoDevelop.Default" />

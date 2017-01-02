@@ -86,6 +86,8 @@
     <None Include="ReferenceData\_assessment_titles.sql" />
     <None Include="Tables\assessments.sql" />
     <None Include="Tables\forms.sql" />
+    <None Include="Tables\_genders.sql" />
+    <None Include="ReferenceData\_genders.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
