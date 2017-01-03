@@ -8,12 +8,7 @@
 	first_name varchar(100),
 	last_name varchar(100),
 
-	address varchar(100),
-	city varchar(100),
-	state varchar(100),
-	zip varchar(100),
 
-	phone_number varchar(12),
 	PRIMARY KEY (pk_student_id),
 	KEY campus (fk_campus_id),
 	KEY enrollment_status (fk_enrollment_status_id),

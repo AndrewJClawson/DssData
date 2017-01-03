@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{256AF05A-BD4E-4431-837C-5239FB65A181}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DssData/Models/Gender.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DssData/ModelInterfaces/IStudent.cs">
     <Files>
-      <File FileName="DssData/Models/Student.cs" Line="24" Column="3" />
+      <File FileName="DssData/Models/Student.cs" Line="11" Column="30" />
       <File FileName="DssData/Models/Form.cs" Line="1" Column="1" />
-      <File FileName="DssData/Models/Gender.cs" Line="15" Column="16" />
+      <File FileName="DssData/Models/Gender.cs" Line="8" Column="18" />
       <File FileName="DssData/ModelInterfaces/IGender.cs" Line="6" Column="13" />
-      <File FileName="DssData.Database/Scripts/initial_develop_data.sql" Line="4" Column="1" />
-      <File FileName="DssData.Database/Tables/students.sql" Line="23" Column="81" />
-      <File FileName="DssData.Web.Tests/Services/LookupService/LookupServiceIntegrationTest.cs" Line="46" Column="4" />
-      <File FileName="DssData.Web/Services/LookupService.cs" Line="31" Column="1" />
+      <File FileName="DssData.Database/Scripts/initial_develop_data.sql" Line="44" Column="56" />
+      <File FileName="DssData.Database/Tables/students.sql" Line="10" Column="2" />
+      <File FileName="DssData/ModelInterfaces/IStudent.cs" Line="11" Column="3" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">

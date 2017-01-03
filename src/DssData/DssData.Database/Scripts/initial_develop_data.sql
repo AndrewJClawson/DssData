@@ -1,7 +1,8 @@
 ﻿
 SELECT 'Populating table: campuses' as 'Action';
-INSERT INTO campuses VALUES (1,"First Campus","345 Fake St.","My City","CO","80233");
-
+INSERT INTO campuses VALUES (1,"West Campus","1380 Ammons St.","Lakewood","CO","80214");
+INSERT INTO campuses VALUES (2, "East Campus", "1585 Kingstons St.", "Aurora", "CO", "80010");
+INSERT INTO campuses VALUES (3, "Hope Campus", "N/A/", "No City Available", "CO", "No Zip");
 
 SELECT 'Populating table: profiles' as 'Action';
 INSERT INTO profiles VALUES (1,"e1e6f670-1bf0-44cc-a34e-7d7f443567dc",1,"Andrew","Clawson");
@@ -38,3 +39,11 @@ INSERT INTO quarters VALUES (13,4,1);
 INSERT INTO quarters VALUES (14,4,2);
 INSERT INTO quarters VALUES (15,4,3);
 INSERT INTO quarters VALUES (16,4,4);
+
+INSERT INTO students VALUES (1,1,4,1,"Alfonso", "Sailas");
+INSERT INTO students VALUES (2,1,3,2,"Deja", "Silva");
+INSERT INTO students VALUES (3,1,3,2,"Emily", "Harbison");
+INSERT INTO students VALUES (4,1,4,1,"Isaiah", "Flakes");
+INSERT INTO students VALUES (5,1,4,1,"Jasyris","Black");
+INSERT INTO students VALUES (6,1,3,1,"Jack","Frailey");
+INSERT INTO students VALUES (7,1,3,1,"Mark","Sater");

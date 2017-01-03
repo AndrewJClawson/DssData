@@ -28,18 +28,6 @@ namespace DssData.Models
 		[Column("last_name")]
 		public string LastName { get; set; }
 
-		[Column("address")]
-		public string Address { get; set; }
-
-		[Column("city")]
-		public string City { get; set; }
-
-		[Column("state")]
-		public string State { get; set; }
-
-		[Column("zip")]
-		public string Zip { get; set; }
-
 		public Student()
 		{
 		}
