@@ -6,7 +6,7 @@ using System;
 using NUnit;
 using NUnit.Framework;
 
-namespace DssData.Web.Tests.Servicess
+namespace DssData.Web.Tests.Services
 {
 	public class LookupServiceUnitTests
 	{

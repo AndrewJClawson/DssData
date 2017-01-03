@@ -26,5 +26,9 @@ namespace DssData.Web.Services
 			return _dataContext.EnrollmentStatuses;
 		}
 
+		public IEnumerable<Gender> GetGenders()
+		{
+			return _dataContext.Genders;
+		}
 	}
 }

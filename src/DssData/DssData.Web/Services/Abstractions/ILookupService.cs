@@ -8,5 +8,6 @@ namespace DssData.Web.Services
 	{
 		
 		IEnumerable<EnrollmentStatus> GetEnrollmentStatuses();
+		IEnumerable<Gender> GetGenders();
 	}
 }

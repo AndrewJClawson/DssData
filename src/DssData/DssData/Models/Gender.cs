@@ -5,7 +5,7 @@ using DssData.ModelInterfaces;
 
 namespace DssData.Models
 {
-	[Table("_gender")]
+	[Table("_genders")]
 	public class Gender : IGender
 	{
 		[Column("pk_gender_id")]

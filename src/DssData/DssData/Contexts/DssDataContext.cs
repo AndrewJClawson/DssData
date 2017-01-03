@@ -22,6 +22,7 @@ namespace DssData.Contexts
 		// Application API models
 		//public DbSet<Account> Accounts { get; set; }
 		public DbSet<EnrollmentStatus> EnrollmentStatuses { get; set; }
+		public DbSet<Gender> Genders { get; set; }
 
 		public DbSet<Profile> Profiles { get; set; }
 		//public DbSet<School> Schools { get; set; }

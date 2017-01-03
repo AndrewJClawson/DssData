@@ -19,6 +19,9 @@ namespace DssData.Models
 		[Column("fk_enrollment_status_id")]
 		public int EnrollmentStatusId { get; set; }
 
+		[Column("fk_gender_id")]
+		public int GenderId { get; set; }
+
 		[Column("first_name")]
 		public string FirstName { get; set; }
 

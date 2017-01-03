@@ -48,5 +48,18 @@ namespace DssData.Web.Tests.Services
 			Assert.That(enrollmentStatusList.FirstOrDefault().Name == Constants.EnrollmentStatus.Active.Name);
 		}
 
+		[Test]
+		public void LookupService_GetGenders_HasMale()
+		{
+			var male = this.SUT.GetGenders().Where(g => g.GenderId == Constants.Gender.Male.Id).ToList();
+			Assert.That(male.FirstOrDefault().Name == Constants.Gender.Male.Name);
+		}
+
+		[Test]
+		public void LookupService_GetGenders_HasFemale()
+		{
+			var female = this.SUT.GetGenders().Where(g => g.GenderId == Constants.Gender.Female.Id).ToList();
+			Assert.That(female.FirstOrDefault().Name == Constants.Gender.Female.Name);
+		}
 	}
 }
